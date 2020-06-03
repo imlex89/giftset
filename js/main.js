@@ -1,0 +1,1 @@
+let ibg=document.querySelector(".ibg"),img=ibg.querySelector("img").getAttribute("src");ibg.setAttribute("style","background-image:url("+img+")");let body=document.querySelector(".body"),flag=!0;function onClick(e){flag?e.classList.add("active"):e.classList.remove("active"),flag=!flag}
